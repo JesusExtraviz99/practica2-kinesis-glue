@@ -1,0 +1,8 @@
+﻿{
+  "sensor_id": "SENSOR-001",
+  "zona": "sala_pesas",
+  "temperatura": 24.5,
+  "humedad": 55,
+  "ocupacion": 18,
+  "timestamp": "2026-06-14T12:30:00Z"
+}
