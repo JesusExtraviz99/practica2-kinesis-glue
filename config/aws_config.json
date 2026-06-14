@@ -2,6 +2,8 @@
   "region": "us-east-1",
   "bucket_name": "p2-kinesis-glue-jexsuarez-2026",
   "kinesis_stream_name": "p2-gimnasio-sensores-stream",
+  "firehose_name": "p2-gimnasio-sensores-firehose",
+  "lambda_transform_name": "p2-firehose-transform-gimnasio",
   "folders": [
     "raw/",
     "processed/",
