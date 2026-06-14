@@ -1,0 +1,10 @@
+﻿{
+  "region": "us-east-1",
+  "bucket_name": "p2-kinesis-glue-jexsuarez-2026",
+  "folders": [
+    "raw/",
+    "processed/",
+    "scripts/",
+    "config/"
+  ]
+}
