@@ -4,6 +4,10 @@
   "kinesis_stream_name": "p2-gimnasio-sensores-stream",
   "firehose_name": "p2-gimnasio-sensores-firehose",
   "lambda_transform_name": "p2-firehose-transform-gimnasio",
+  "glue_database": "p2_gimnasio_sensores_db",
+  "glue_crawler": "p2-gimnasio-sensores-crawler",
+  "glue_table": "firehose",
+  "glue_job": "p2-gimnasio-sensores-etl-job",
   "folders": [
     "raw/",
     "processed/",

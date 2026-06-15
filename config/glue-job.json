@@ -1,0 +1,18 @@
+{
+  "Name": "p2-gimnasio-sensores-etl-job",
+  "Role": "arn:aws:iam::328285823140:role/LabRole",
+  "Command": {
+    "Name": "glueetl",
+    "ScriptLocation": "s3://p2-kinesis-glue-jexsuarez-2026/scripts/etl_job.py",
+    "PythonVersion": "3"
+  },
+  "GlueVersion": "4.0",
+  "WorkerType": "G.1X",
+  "NumberOfWorkers": 2,
+  "DefaultArguments": {
+    "--GLUE_DATABASE": "p2_gimnasio_sensores_db",
+    "--GLUE_TABLE": "firehose",
+    "--OUTPUT_PATH": "s3://p2-kinesis-glue-jexsuarez-2026/processed/glue/",
+    "--job-language": "python"
+  }
+}
